@@ -60,21 +60,18 @@
       </article>
     </main>
 
-    <formulaire action="https://www.google.com/search" method="get">
-        <h1>Form Example</h1>
-        <sectione>
-          <h2>Personnal Infos</h2>
-          <p>
-            <label for="nom">Name</label>
-            <input type="txt" name="nom" id="nom" placeholder="Insert your name"
-                      minlength="2" required>
-          </p>
-          <p>
-            <label for="dn">Birthdate</label>
-            <input type="birthdate" name="dn" id="dn" min="1930-01-01" max="2002-12-31">
-          </p>
-        </sectione>
-    </formulaire>
+    <form action="https://www.google.com/search" method="get">
+      <fieldset>
+        <legend>Personnal Infos</legend>
+        <label for="nameinput">Name</label>
+        <input type="text" id="nameinput" placeholder="Insert your name" minlength="2" required>
+        <label for="birthdinput">Birthdate</label>
+        <input type="date" id="birthdinput" min="1930-01-01" max="2002-12-31">
+      </fieldset>
+    </form>  
+      
+      
+    
 
     <pre style="font-size: 3em;">here               i                am</pre>
 
